@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+${OBJS}	Makefile	/^${OBJS}: ${LIBS_OBJS}$/;"	t
+CXXFLAGS	Makefile	/^CXXFLAGS= -Wall -fopenmp -flto -fno-fat-lto-objects -std=c++11$/;"	m
+ENNDESCENT_H	ENND.h	/^#define ENNDESCENT_H$/;"	d
+ENNDescent	ENND.cpp	/^ENNDescent::ENNDescent(unsigned int N, unsigned int K, fptr distance) :$/;"	f	class:ENNDescent
+ENNDescent	ENND.cpp	/^ENNDescent::ENNDescent(unsigned int N, unsigned int K, fptr distance, vector<unsigned int> index/;"	f	class:ENNDescent
+ENNDescent	ENND.h	/^class ENNDescent {$/;"	c
+FLAGVECTOR_H	flagVector.h	/^#define FLAGVECTOR_H$/;"	d
+GPP	Makefile	/^GPP=gcc$/;"	m
+K	ENND.h	/^	unsigned int K;$/;"	m	class:ENNDescent	typeref:typename:unsigned int
+K	timeManager.h	/^	unsigned int K;$/;"	m	class:timeManager	typeref:typename:unsigned int
+LDFLAGS	Makefile	/^LDFLAGS=  rcs$/;"	m
+LIBS_OBJS	Makefile	/^LIBS_OBJS= build\/Nodo.o build\/timeManager.o build\/flagVector.o build\/ENND.o$/;"	m
+LINKER	Makefile	/^LINKER=gcc-ar$/;"	m
+N	timeManager.h	/^	unsigned int N;$/;"	m	class:timeManager	typeref:typename:unsigned int
+NODO_H	Nodo.h	/^#define NODO_H$/;"	d
+Nodo	Nodo.cpp	/^Nodo::Nodo(unsigned int maxNN) {$/;"	f	class:Nodo
+Nodo	Nodo.h	/^struct Nodo {$/;"	s
+OBJS	Makefile	/^OBJS=build\/libENND.a$/;"	m
+TIMEMANAGER_H	timeManager.h	/^#define TIMEMANAGER_H$/;"	d
+__anon588bfe3b0102	ENND.cpp	/^	std::generate(idxMapper.begin(), idxMapper.end(), [&]{ return n++; });$/;"	f	function:ENNDescent::ENNDescent	file:
+__anon588bfe3b0202	ENND.cpp	/^	std::generate(std::begin(dst), std::end(dst), [&]{ return distance(0,n++);});$/;"	f	function:ENNDescent::ENNDescent	file:
+__anon588bfe3b0302	ENND.cpp	/^	std::sort(idxMapper.begin(), idxMapper.end(), [&](int i1, int i2) { return dst[i1] < dst[i2]; }/;"	f	function:ENNDescent::ENNDescent	file:
+__anon588bfe3b0402	ENND.cpp	/^	std::generate(idxMapper.begin(), idxMapper.end(), [&]{ return n++; });$/;"	f	function:ENNDescent::ENNDescent	file:
+__anon588bfe3b0502	ENND.cpp	/^		std::sort(vn.begin(), vn.end(),	[&](int i1, int i2) { return vd[i1] < vd[i2]; });$/;"	f	function:ENNDescent::ENNDescent	file:
+added	timeManager.cpp	/^void timeManager::added (unsigned int i, unsigned int n1) {$/;"	f	class:timeManager	typeref:typename:void
+all	Makefile	/^all: ${OBJS}$/;"	t
+append	Nodo.cpp	/^void Nodo::append(const float ds, const unsigned int idx) {$/;"	f	class:Nodo	typeref:typename:void
+blind_insert	Nodo.cpp	/^unsigned int Nodo::blind_insert(const float ds, const unsigned int idx) {$/;"	f	class:Nodo	typeref:typename:unsigned int
+build	Makefile	/^build:$/;"	t
+build/ENND.o	Makefile	/^build\/ENND.o: ENND.cpp ENND.h build$/;"	t
+build/Nodo.o	Makefile	/^build\/Nodo.o: Nodo.cpp Nodo.h build$/;"	t
+build/flagVector.o	Makefile	/^build\/flagVector.o: flagVector.cpp flagVector.h build$/;"	t
+build/timeManager.o	Makefile	/^build\/timeManager.o: timeManager.cpp timeManager.h build$/;"	t
+checkGraph	ENND.cpp	/^void ENNDescent::checkGraph() {$/;"	f	class:ENNDescent	typeref:typename:void
+checked	timeManager.cpp	/^void timeManager::checked (unsigned int i, unsigned int n1) {$/;"	f	class:timeManager	typeref:typename:void
+clean	Makefile	/^clean:$/;"	t
+clear_all	flagVector.cpp	/^void flagVector::clear_all() {$/;"	f	class:flagVector	typeref:typename:void
+distance	ENND.h	/^	fptr distance;$/;"	m	class:ENNDescent	typeref:typename:fptr
+edge_added	timeManager.h	/^	std::vector< unsigned char > edge_added;$/;"	m	class:timeManager	typeref:typename:std::vector<unsigned char>
+edge_checked	timeManager.h	/^	std::vector< unsigned char > edge_checked;$/;"	m	class:timeManager	typeref:typename:std::vector<unsigned char>
+flagVector	flagVector.cpp	/^flagVector::flagVector(unsigned int size) : v(size, 0), n(0) {};$/;"	f	class:flagVector
+flagVector	flagVector.h	/^class flagVector {$/;"	c
+fptr	ENND.h	/^typedef float (*fptr)(unsigned int, unsigned int);$/;"	t	typeref:typename:float (*)(unsigned int,unsigned int)
+idxMapper	ENND.h	/^	vector<unsigned int> idxMapper;$/;"	m	class:ENNDescent	typeref:typename:vector<unsigned int>
+is_marked	flagVector.cpp	/^bool flagVector::is_marked(unsigned int i) {$/;"	f	class:flagVector	typeref:typename:bool
+iter_to_freeze	timeManager.h	/^	unsigned char iter_to_freeze;$/;"	m	class:timeManager	typeref:typename:unsigned char
+iterate	ENND.cpp	/^unsigned int ENNDescent::iterate() {$/;"	f	class:ENNDescent	typeref:typename:unsigned int
+iterate	timeManager.cpp	/^void timeManager::iterate ( ) {$/;"	f	class:timeManager	typeref:typename:void
+iteration	timeManager.h	/^	unsigned char iteration;$/;"	m	class:timeManager	typeref:typename:unsigned char
+last_change	timeManager.h	/^	std::vector< unsigned char > last_change;$/;"	m	class:timeManager	typeref:typename:std::vector<unsigned char>
+lock	Nodo.cpp	/^void Nodo::lock() {$/;"	f	class:Nodo	typeref:typename:void
+lock_var	Nodo.h	/^	omp_lock_t lock_var;$/;"	m	struct:Nodo	typeref:typename:omp_lock_t
+mark	flagVector.cpp	/^void flagVector::mark(unsigned int i) {$/;"	f	class:flagVector	typeref:typename:void
+n	flagVector.h	/^	unsigned int n;$/;"	m	class:flagVector	typeref:typename:unsigned int
+needs_procesing	timeManager.cpp	/^bool timeManager::needs_procesing (unsigned int i) {$/;"	f	class:timeManager	typeref:typename:bool
+needs_procesing	timeManager.cpp	/^bool timeManager::needs_procesing (unsigned int i, unsigned int n1, unsigned int j) {$/;"	f	class:timeManager	typeref:typename:bool
+needs_procesing	timeManager.cpp	/^bool timeManager::needs_procesing (unsigned int i, unsigned int n1, unsigned int j, unsigned int/;"	f	class:timeManager	typeref:typename:bool
+operator () 	ENND.cpp	/^unsigned int ENNDescent::operator() (unsigned int i, unsigned int n1) const {$/;"	f	class:ENNDescent	typeref:typename:unsigned int
+processNode	ENND.cpp	/^void ENNDescent::processNode(const unsigned int i, flagVector& to_avoid, unsigned int& cambios) /;"	f	class:ENNDescent	typeref:typename:void
+safe_insert	Nodo.cpp	/^unsigned int Nodo::safe_insert(const float ds, const unsigned int idx) {$/;"	f	class:Nodo	typeref:typename:unsigned int
+test_lock	Nodo.cpp	/^bool Nodo::test_lock() {$/;"	f	class:Nodo	typeref:typename:bool
+timeManager	timeManager.cpp	/^timeManager::timeManager (unsigned int N, unsigned int K, unsigned char iter_to_freeze) : $/;"	f	class:timeManager
+timeManager	timeManager.h	/^class timeManager {$/;"	c
+tman	ENND.h	/^	timeManager tman;$/;"	m	class:ENNDescent	typeref:typename:timeManager
+toSparseMatrix	ENND.cpp	/^void ENNDescent::toSparseMatrix(vector<unsigned int>& idxs, vector<unsigned int>& ptrs, vector<f/;"	f	class:ENNDescent	typeref:typename:void
+unirNodos	ENND.cpp	/^unsigned int ENNDescent::unirNodos(const unsigned int i, const unsigned int k, unsigned int& n1)/;"	f	class:ENNDescent	typeref:typename:unsigned int
+unlock	Nodo.cpp	/^void Nodo::unlock() {$/;"	f	class:Nodo	typeref:typename:void
+v	flagVector.h	/^	std::vector<unsigned int> v;$/;"	m	class:flagVector	typeref:typename:std::vector<unsigned int>
+vDistancia	Nodo.h	/^	std::vector<float> vDistancia;$/;"	m	struct:Nodo	typeref:typename:std::vector<float>
+vNodo	ENND.h	/^	vector<Nodo> vNodo;$/;"	m	class:ENNDescent	typeref:typename:vector<Nodo>
+vVecino	Nodo.h	/^	std::vector<unsigned int> vVecino;$/;"	m	struct:Nodo	typeref:typename:std::vector<unsigned int>
+~timeManager	timeManager.cpp	/^timeManager::~timeManager ( ) {$/;"	f	class:timeManager
